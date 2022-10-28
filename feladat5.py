@@ -1,3 +1,4 @@
+from ipaddress import summarize_address_range
 import random
 
 #lista = int(input("Adja meg, hogy hány elemű listát szeretne: "))
@@ -28,6 +29,11 @@ print("Negatív számok száma: ",negativdb)
 #b rész
 print(max(Lszamok)-min(Lszamok))
 print()
+
+#c csökkenő
+Lszamok.sort()
+Lszamok.reverse()
+print(Lszamok)
 
 
 
