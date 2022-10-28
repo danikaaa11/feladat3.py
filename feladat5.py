@@ -23,4 +23,12 @@ for szam in Lszamok:
     if(szam<0):
         negativdb+=1 #negativdb=negativdb+1
 
-print("Negatív számok száma: ",negativdb)           
+print("Negatív számok száma: ",negativdb)
+
+#b rész
+print(max(Lszamok)-min(Lszamok))
+print()
+
+
+
+           
